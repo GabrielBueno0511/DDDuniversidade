@@ -35,7 +35,7 @@ namespace DDD.Infra.SQLServer
             modelBuilder.Entity<Pesquisador>().ToTable("Pesquisador");
             modelBuilder.Entity<Atleta>().ToTable("Atleta");
             modelBuilder.Entity<Esporte>().ToTable("Esporte");
-            modelBuilder.Entity<Esporte>().ToTable("campeonato");
+            modelBuilder.Entity<Campeonato>().ToTable("campeonato");
             //https://learn.microsoft.com/pt-br/ef/core/modeling/inheritance
         }
 

@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("DDD.Infra.SqlServer")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("DDD.Infra.SQLServer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("DDD.Infra.SqlServer")]
-[assembly: System.Reflection.AssemblyTitleAttribute("DDD.Infra.SqlServer")]
+[assembly: System.Reflection.AssemblyProductAttribute("DDD.Infra.SQLServer")]
+[assembly: System.Reflection.AssemblyTitleAttribute("DDD.Infra.SQLServer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Gerado pela classe WriteCodeFragment do MSBuild.

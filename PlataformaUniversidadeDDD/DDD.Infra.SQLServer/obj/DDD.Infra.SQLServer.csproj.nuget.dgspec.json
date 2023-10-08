@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Bueno\\source\\PlataformaUniversidadeDDD\\DDD.Infra.SQLServer\\DDD.Infra.SQLServer.csproj": {}
+    "C:\\DDDuniversidade\\PlataformaUniversidadeDDD\\DDD.Infra.SQLServer\\DDD.Infra.SQLServer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Bueno\\source\\PlataformaUniversidadeDDD\\DDD.Domain\\DDD.Domain.csproj": {
+    "C:\\DDDuniversidade\\PlataformaUniversidadeDDD\\DDD.Domain\\DDD.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bueno\\source\\PlataformaUniversidadeDDD\\DDD.Domain\\DDD.Domain.csproj",
+        "projectUniqueName": "C:\\DDDuniversidade\\PlataformaUniversidadeDDD\\DDD.Domain\\DDD.Domain.csproj",
         "projectName": "DDD.Domain",
-        "projectPath": "C:\\Users\\Bueno\\source\\PlataformaUniversidadeDDD\\DDD.Domain\\DDD.Domain.csproj",
+        "projectPath": "C:\\DDDuniversidade\\PlataformaUniversidadeDDD\\DDD.Domain\\DDD.Domain.csproj",
         "packagesPath": "C:\\Users\\Bueno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bueno\\source\\PlataformaUniversidadeDDD\\DDD.Domain\\obj\\",
+        "outputPath": "C:\\DDDuniversidade\\PlataformaUniversidadeDDD\\DDD.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Bueno\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -59,14 +59,14 @@
         }
       }
     },
-    "C:\\Users\\Bueno\\source\\PlataformaUniversidadeDDD\\DDD.Infra.SQLServer\\DDD.Infra.SQLServer.csproj": {
+    "C:\\DDDuniversidade\\PlataformaUniversidadeDDD\\DDD.Infra.SQLServer\\DDD.Infra.SQLServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Bueno\\source\\PlataformaUniversidadeDDD\\DDD.Infra.SQLServer\\DDD.Infra.SQLServer.csproj",
+        "projectUniqueName": "C:\\DDDuniversidade\\PlataformaUniversidadeDDD\\DDD.Infra.SQLServer\\DDD.Infra.SQLServer.csproj",
         "projectName": "DDD.Infra.SQLServer",
-        "projectPath": "C:\\Users\\Bueno\\source\\PlataformaUniversidadeDDD\\DDD.Infra.SQLServer\\DDD.Infra.SQLServer.csproj",
+        "projectPath": "C:\\DDDuniversidade\\PlataformaUniversidadeDDD\\DDD.Infra.SQLServer\\DDD.Infra.SQLServer.csproj",
         "packagesPath": "C:\\Users\\Bueno\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Bueno\\source\\PlataformaUniversidadeDDD\\DDD.Infra.SQLServer\\obj\\",
+        "outputPath": "C:\\DDDuniversidade\\PlataformaUniversidadeDDD\\DDD.Infra.SQLServer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Bueno\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -83,8 +83,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\Bueno\\source\\PlataformaUniversidadeDDD\\DDD.Domain\\DDD.Domain.csproj": {
-                "projectPath": "C:\\Users\\Bueno\\source\\PlataformaUniversidadeDDD\\DDD.Domain\\DDD.Domain.csproj"
+              "C:\\DDDuniversidade\\PlataformaUniversidadeDDD\\DDD.Domain\\DDD.Domain.csproj": {
+                "projectPath": "C:\\DDDuniversidade\\PlataformaUniversidadeDDD\\DDD.Domain\\DDD.Domain.csproj"
               }
             }
           }

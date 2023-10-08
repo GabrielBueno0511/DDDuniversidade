@@ -21,3 +21,14 @@ C:\Users\Bueno\source\PlataformaUniversidadeDDD\DDD.Domain\obj\Debug\net6.0\DDD.
 C:\Users\Bueno\source\PlataformaUniversidadeDDD\DDD.Domain\obj\Debug\net6.0\refint\DDD.Domain.dll
 C:\Users\Bueno\source\PlataformaUniversidadeDDD\DDD.Domain\obj\Debug\net6.0\DDD.Domain.pdb
 C:\Users\Bueno\source\PlataformaUniversidadeDDD\DDD.Domain\obj\Debug\net6.0\ref\DDD.Domain.dll
+C:\DDDuniversidade\PlataformaUniversidadeDDD\DDD.Domain\bin\Debug\net6.0\DDD.Domain.deps.json
+C:\DDDuniversidade\PlataformaUniversidadeDDD\DDD.Domain\bin\Debug\net6.0\DDD.Domain.dll
+C:\DDDuniversidade\PlataformaUniversidadeDDD\DDD.Domain\bin\Debug\net6.0\DDD.Domain.pdb
+C:\DDDuniversidade\PlataformaUniversidadeDDD\DDD.Domain\obj\Debug\net6.0\DDD.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\DDDuniversidade\PlataformaUniversidadeDDD\DDD.Domain\obj\Debug\net6.0\DDD.Domain.AssemblyInfoInputs.cache
+C:\DDDuniversidade\PlataformaUniversidadeDDD\DDD.Domain\obj\Debug\net6.0\DDD.Domain.AssemblyInfo.cs
+C:\DDDuniversidade\PlataformaUniversidadeDDD\DDD.Domain\obj\Debug\net6.0\DDD.Domain.csproj.CoreCompileInputs.cache
+C:\DDDuniversidade\PlataformaUniversidadeDDD\DDD.Domain\obj\Debug\net6.0\DDD.Domain.dll
+C:\DDDuniversidade\PlataformaUniversidadeDDD\DDD.Domain\obj\Debug\net6.0\refint\DDD.Domain.dll
+C:\DDDuniversidade\PlataformaUniversidadeDDD\DDD.Domain\obj\Debug\net6.0\DDD.Domain.pdb
+C:\DDDuniversidade\PlataformaUniversidadeDDD\DDD.Domain\obj\Debug\net6.0\ref\DDD.Domain.dll

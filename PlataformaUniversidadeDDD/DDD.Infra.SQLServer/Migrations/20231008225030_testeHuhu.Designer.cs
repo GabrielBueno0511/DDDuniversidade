@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace DDD.Infra.SQLServer.Migrations
 {
     [DbContext(typeof(SqlContext))]
-    [Migration("20230927185039_matriculaPkUnica")]
-    partial class matriculaPkUnica
+    [Migration("20231008225030_testeHuhu")]
+    partial class testeHuhu
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -26,6 +26,64 @@ namespace DDD.Infra.SQLServer.Migrations
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
 
             modelBuilder.HasSequence("UserSequence");
+
+            modelBuilder.Entity("DDD.Domain.Atletica.Campeonato", b =>
+                {
+                    b.Property<int>("CampeonatoId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("CampeonatoId"));
+
+                    b.Property<int>("EsporteId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("NomeCampeonato")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("CampeonatoId");
+
+                    b.ToTable("Campeonatos");
+                });
+
+            modelBuilder.Entity("DDD.Domain.Atletica.ContratoAtleta", b =>
+                {
+                    b.Property<int>("AtletaId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("EsporteId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("ContratoId")
+                        .HasColumnType("int");
+
+                    b.Property<int>("TempoContrato")
+                        .HasColumnType("int");
+
+                    b.HasKey("AtletaId", "EsporteId");
+
+                    b.HasIndex("EsporteId");
+
+                    b.ToTable("ContratoAtletas");
+                });
+
+            modelBuilder.Entity("DDD.Domain.Atletica.Esporte", b =>
+                {
+                    b.Property<int>("EsporteId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("EsporteId"));
+
+                    b.Property<string>("NomeEsporte")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("EsporteId");
+
+                    b.ToTable("campeonato", (string)null);
+                });
 
             modelBuilder.Entity("DDD.Domain.PicContext.Projeto", b =>
                 {
@@ -150,6 +208,13 @@ namespace DDD.Infra.SQLServer.Migrations
                     b.UseTpcMappingStrategy();
                 });
 
+            modelBuilder.Entity("DDD.Domain.Atletica.Atleta", b =>
+                {
+                    b.HasBaseType("DDD.Domain.UserManagementContext.User");
+
+                    b.ToTable("Atleta", (string)null);
+                });
+
             modelBuilder.Entity("DDD.Domain.PicContext.Pesquisador", b =>
                 {
                     b.HasBaseType("DDD.Domain.UserManagementContext.User");
@@ -166,6 +231,25 @@ namespace DDD.Infra.SQLServer.Migrations
                     b.HasBaseType("DDD.Domain.UserManagementContext.User");
 
                     b.ToTable("Aluno", (string)null);
+                });
+
+            modelBuilder.Entity("DDD.Domain.Atletica.ContratoAtleta", b =>
+                {
+                    b.HasOne("DDD.Domain.Atletica.Atleta", "Atleta")
+                        .WithMany()
+                        .HasForeignKey("AtletaId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("DDD.Domain.Atletica.Esporte", "Esporte")
+                        .WithMany()
+                        .HasForeignKey("EsporteId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Atleta");
+
+                    b.Navigation("Esporte");
                 });
 
             modelBuilder.Entity("DDD.Domain.PicContext.Projeto", b =>

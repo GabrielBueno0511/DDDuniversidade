@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6pIxm+It6SDd2MCRuoiUYjKq8tolfDAKVcXIOjizKh5dL6qvwZzyYS0s1pq7kEvPN/mzJxTG+vJRpnadgsdjPg==",
+  "dgSpecHash": "0uBwsIoBGh5sfeq3D/ZDyAVZ7i4pK8BQRQTwNJsO+8UMBrNYrZjveZLVSxyagWqp/su2bCgMFIjsVPaKQtKAjA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Bueno\\source\\PlataformaUniversidadeDDD\\DDD.Domain\\DDD.Domain.csproj",
+  "projectFilePath": "C:\\DDDuniversidade\\PlataformaUniversidadeDDD\\DDD.Domain\\DDD.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

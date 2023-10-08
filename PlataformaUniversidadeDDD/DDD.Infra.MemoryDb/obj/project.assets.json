@@ -3294,11 +3294,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Bueno\\source\\PlataformaUniversidadeDDD\\DDD.Infra.MemoryDb\\DDD.Infra.MemoryDb.csproj",
+      "projectUniqueName": "C:\\DDDuniversidade\\PlataformaUniversidadeDDD\\DDD.Infra.MemoryDb\\DDD.Infra.MemoryDb.csproj",
       "projectName": "DDD.Infra.MemoryDb",
-      "projectPath": "C:\\Users\\Bueno\\source\\PlataformaUniversidadeDDD\\DDD.Infra.MemoryDb\\DDD.Infra.MemoryDb.csproj",
+      "projectPath": "C:\\DDDuniversidade\\PlataformaUniversidadeDDD\\DDD.Infra.MemoryDb\\DDD.Infra.MemoryDb.csproj",
       "packagesPath": "C:\\Users\\Bueno\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Bueno\\source\\PlataformaUniversidadeDDD\\DDD.Infra.MemoryDb\\obj\\",
+      "outputPath": "C:\\DDDuniversidade\\PlataformaUniversidadeDDD\\DDD.Infra.MemoryDb\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Bueno\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3315,11 +3315,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Bueno\\source\\PlataformaUniversidadeDDD\\DDD.Domain\\DDD.Domain.csproj": {
-              "projectPath": "C:\\Users\\Bueno\\source\\PlataformaUniversidadeDDD\\DDD.Domain\\DDD.Domain.csproj"
+            "C:\\DDDuniversidade\\PlataformaUniversidadeDDD\\DDD.Domain\\DDD.Domain.csproj": {
+              "projectPath": "C:\\DDDuniversidade\\PlataformaUniversidadeDDD\\DDD.Domain\\DDD.Domain.csproj"
             },
-            "C:\\Users\\Bueno\\source\\PlataformaUniversidadeDDD\\DDD.Infra.SQLServer\\DDD.Infra.SQLServer.csproj": {
-              "projectPath": "C:\\Users\\Bueno\\source\\PlataformaUniversidadeDDD\\DDD.Infra.SQLServer\\DDD.Infra.SQLServer.csproj"
+            "C:\\DDDuniversidade\\PlataformaUniversidadeDDD\\DDD.Infra.SQLServer\\DDD.Infra.SQLServer.csproj": {
+              "projectPath": "C:\\DDDuniversidade\\PlataformaUniversidadeDDD\\DDD.Infra.SQLServer\\DDD.Infra.SQLServer.csproj"
             }
           }
         }
